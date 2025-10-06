@@ -2,6 +2,12 @@
 
 @import url("https://web3.tim-momo.com/carre/styles.css");
 
+
+* {
+  /*border: 1px solid red; /*!important*/
+  font-family :'Work Sans', sans-serif;
+}
+
 .back {
   aspect-ratio: 5 / 7;
 }
@@ -9,3 +15,18 @@
 .carte {
   aspect-ratio: 5 / 7;
 }
+
+.icon {
+  display:flex;
+  justify-content: center;
+}
+
+.color-danger {
+  color: rgb(255, 0, 0) !important;   /* surcharge */
+}
+
+.flip{
+  transform: scaleY(1.5);
+}
+
+
